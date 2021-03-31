@@ -58,7 +58,7 @@ const Checkout = ({ history }) => {
     saveUserAddress(user.token, address).then((res) => {
       if (res.data.ok) {
         setAddressSaved(true);
-        toast.success("Address saved");
+        toast.success("Adresa salvata");
       }
     });
   };
